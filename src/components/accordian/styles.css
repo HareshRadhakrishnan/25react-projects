@@ -1,0 +1,23 @@
+.wrapper {
+  align-self: center;
+  height: max-content;
+  background-color: aqua;
+  display: block;
+}
+.container {
+  display: inline-block;
+  width: 500px;
+}
+.accordian {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.answer {
+  background-color: aquamarine;
+  display: inline-block;
+}
+.selectionToggle {
+  display: flex;
+}
