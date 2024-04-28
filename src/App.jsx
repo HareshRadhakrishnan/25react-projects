@@ -7,6 +7,7 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
+import TreeView from "./components/tree-view";
 function App() {
   return (
     <>
@@ -22,7 +23,10 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} length={10} /> */}
 
       {/* Load More data - batch by batch fetching */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+
+      {/* Tree view coponent a recursive UI component */}
+      <TreeView />
     </>
   );
 }
