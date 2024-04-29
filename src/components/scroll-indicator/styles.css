@@ -1,0 +1,19 @@
+.floating-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  background-color: aquamarine;
+}
+.progressbar-container {
+  height: 20px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.progressbar {
+  height: 20px;
+  background-color: black;
+}
+.products {
+  margin-top: 25vh;
+}

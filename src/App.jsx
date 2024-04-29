@@ -10,6 +10,7 @@ import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import QrGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
 function App() {
   return (
     <>
@@ -34,7 +35,10 @@ function App() {
       {/* <QrGenerator /> */}
 
       {/* Dark and Light theme switching with a custom hook */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/* indicator that allows user to see the scrolling depth */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }
