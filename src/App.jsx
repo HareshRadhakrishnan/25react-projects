@@ -8,6 +8,8 @@ import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
+import QrGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
 function App() {
   return (
     <>
@@ -26,7 +28,13 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* Tree view coponent a recursive UI component */}
-      <TreeView />
+      {/* <TreeView /> */}
+
+      {/* QR code Generator */}
+      {/* <QrGenerator /> */}
+
+      {/* Dark and Light theme switching with a custom hook */}
+      <LightDarkMode />
     </>
   );
 }

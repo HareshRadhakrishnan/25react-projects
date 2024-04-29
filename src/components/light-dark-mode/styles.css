@@ -1,0 +1,26 @@
+:root {
+  --background-color: white;
+  --primary-text: black;
+  --button-color: white;
+  --button-text: black;
+}
+
+[theme-type="dark"] {
+  --background-color: black;
+  --primary-text: White;
+  --button-color: black;
+  --button-text: white;
+}
+
+.light-dark-mode {
+  background-color: var(--background-color);
+  height: 100vh;
+  transition: all 0.5s;
+}
+.container p {
+  color: var(--primary-text);
+}
+.container button {
+  background-color: var(--button-color);
+  color: var(--button-text);
+}
