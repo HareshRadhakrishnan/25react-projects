@@ -1,0 +1,14 @@
+.floating-box {
+  display: flexbox;
+  position: fixed;
+  box-shadow: 0px 0px 10px 10px;
+  border-radius: 10px;
+  animation: popup 0.7s;
+}
+.btn-close {
+  position: absolute;
+  display: flex;
+  right: 10px;
+  margin-top: 10px;
+  size: 2rem;
+}

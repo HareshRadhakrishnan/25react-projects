@@ -17,10 +17,17 @@
   height: 100vh;
   transition: all 0.5s;
 }
-.container p {
+.theme-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40vh;
+}
+.theme-container p {
   color: var(--primary-text);
 }
-.container button {
+.theme-container button {
+  margin: 0.5rem auto;
   background-color: var(--button-color);
   color: var(--button-text);
 }

@@ -49,15 +49,15 @@ export default function LoadMoreData() {
               );
             })
           : null}
-        <button
-          onClick={() => {
-            setCount(count + 1);
-          }}
-          disabled={count === 5 ? true : false}
-        >
-          Load More
-        </button>
       </div>
+      <button
+        onClick={() => {
+          setCount(count + 1);
+        }}
+        disabled={count === 5 ? true : false}
+      >
+        Load More
+      </button>
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function QrGenerator() {
     setInput("");
   }
   return (
-    <div className="container">
+    <div className="qr-container">
       <span className="form">
         <input
           onChange={(e) => {

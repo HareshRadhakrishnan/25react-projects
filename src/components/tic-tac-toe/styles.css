@@ -1,0 +1,19 @@
+.tile {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border-color: black;
+  border: solid;
+}
+.tile:hover {
+  background-color: rgb(216, 236, 236);
+}
+.ttt-grid-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}

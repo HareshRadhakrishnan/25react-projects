@@ -1,6 +1,6 @@
-.container {
-  display: flex;
-  flex-direction: column;
+.qr-container {
+  display: inline-grid;
+
   justify-content: center;
   width: 100vw;
 }

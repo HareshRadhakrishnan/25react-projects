@@ -17,7 +17,7 @@ export default function StarRating({ starLen = 5 }) {
     setHover(rating);
   }
   return (
-    <div>
+    <div className="star-container">
       {[...Array(starLen)].map((_, index) => {
         index += 1;
         console.log(index);

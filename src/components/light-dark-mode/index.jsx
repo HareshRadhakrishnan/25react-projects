@@ -11,7 +11,7 @@ export default function LightDarkMode() {
 
   return (
     <div className="light-dark-mode" theme-type={theme}>
-      <div className="container ">
+      <div className="theme-container ">
         <p>Hello, You are using {theme} theme!</p>
         <button onClick={HandleThemeToggle}>Change Theme</button>
       </div>

@@ -1,4 +1,4 @@
-.container {
+.img-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -6,6 +6,7 @@
   width: 600px;
   height: 450px;
   justify-self: center;
+  margin-top: 5rem;
 }
 .current-image {
   border-radius: 0.5rem;

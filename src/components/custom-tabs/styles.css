@@ -1,0 +1,17 @@
+.tab-navigation {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #41aec2;
+}
+.tab {
+  padding: 10px 15px;
+  display: inline-flex;
+  color: #000;
+}
+.main {
+  padding: 8px;
+}
+[isActive="active"] {
+  background-color: rgb(156, 233, 240);
+}

@@ -1,16 +1,24 @@
+.accordian-container {
+  margin: 10vh;
+  padding: 10vh;
+  background: #e2fdff;
+  border-radius: 10px;
+  align: center;
+  display: inline-block;
+}
 .wrapper {
   align-self: center;
   height: max-content;
   background-color: aqua;
   display: block;
-}
-.container {
-  display: inline-block;
   width: 500px;
 }
+.a-container {
+  display: inline-block;
+}
 .accordian {
-  width: 100%;
-  display: flex;
+  /* width: 100%; */
+  display: block;
   justify-content: space-between;
 }
 
@@ -19,5 +27,6 @@
   display: inline-block;
 }
 .selectionToggle {
-  display: flex;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
